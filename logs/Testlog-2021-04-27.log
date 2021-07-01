@@ -1,0 +1,587 @@
+08:55:06.553 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+08:55:09.276 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:55:10.029 [main] INFO  DriverManager - Chrome driver selected
+08:55:10.030 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:55:25.557 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:55:25.766 [main] INFO  HomePage - Opening home page
+08:55:35.562 [main] INFO  MainLayout - Closing welcome message
+08:55:35.850 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:55:43.228 [main] INFO  MainLayout - Welcome message not found
+08:55:43.238 [main] INFO  MainLayout - Typing 'jeans' into search bar
+08:55:43.882 [main] INFO  MainLayout - Starting searching
+08:55:49.311 [main] INFO  ResultsPage - Entering 0 product from list
+08:56:02.552 [main] INFO  ProductPage - Selecting all first product options
+08:56:04.129 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (37b0e976aa72e26a264ab98e57104361)] -> xpath: //*[@id='aside-content']//select]'
+08:56:05.574 [main] INFO  ProductPage - Adding product to bag
+08:56:05.809 [main] INFO  ProductPage - Getting product name
+08:56:06.094 [main] INFO  ProductPage - Getting product price
+08:56:06.196 [main] INFO  MainLayout - Entering bag page
+08:56:06.290 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (37b0e976aa72e26a264ab98e57104361)] -> xpath: //*[@id='chrome-header']]'
+08:56:08.294 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (37b0e976aa72e26a264ab98e57104361)] -> xpath: //*[@data-test-id='bag-link']]'
+08:56:12.993 [main] INFO  BagPage - Waiting for visibility of elements
+08:56:15.709 [main] INFO  BagPage - Getting names of all products in bag
+08:56:15.826 [main] INFO  BasketSteps - Finding product position on list
+08:56:15.828 [main] INFO  BagPage - Waiting for visibility of elements
+08:56:15.895 [main] INFO  BagPage - Getting prices of all products in bag
+08:56:15.963 [main] INFO  BasketSteps - Asserting price of product
+08:56:19.567 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:56:20.004 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:56:20.130 [main] INFO  DriverManager - Chrome driver selected
+08:56:20.130 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:56:29.677 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:56:29.679 [main] INFO  HomePage - Opening home page
+08:56:37.117 [main] INFO  MainLayout - Closing welcome message
+08:56:37.203 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:56:42.027 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+08:56:43.444 [main] INFO  MainLayout - Starting searching
+08:56:49.516 [main] INFO  ResultsPage - Entering 0 product from list
+08:57:01.245 [main] INFO  ProductPage - Selecting all first product options
+08:57:02.224 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (6d32b6ad994a75d6d24a1bd8bb47f556)] -> xpath: //*[@id='aside-content']//select]'
+08:57:04.014 [main] INFO  ProductPage - Adding product to bag
+08:57:04.348 [main] INFO  ProductPage - Getting product name
+08:57:04.548 [main] INFO  ProductPage - Getting product price
+08:57:04.653 [main] INFO  MainLayout - Entering bag page
+08:57:04.716 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (6d32b6ad994a75d6d24a1bd8bb47f556)] -> xpath: //*[@id='chrome-header']]'
+08:57:06.144 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (6d32b6ad994a75d6d24a1bd8bb47f556)] -> xpath: //*[@data-test-id='bag-link']]'
+08:57:11.138 [main] INFO  BagPage - Waiting for visibility of elements
+08:57:12.164 [main] INFO  BagPage - Getting names of all products in bag
+08:57:13.854 [main] INFO  BasketSteps - Finding product position on list
+08:57:13.854 [main] INFO  BagPage - Waiting for visibility of elements
+08:57:14.018 [main] INFO  BagPage - Getting prices of all products in bag
+08:57:14.087 [main] INFO  BasketSteps - Asserting price of product
+08:57:15.931 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:57:15.941 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:57:16.049 [main] INFO  DriverManager - Chrome driver selected
+08:57:16.049 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:57:20.029 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:57:20.031 [main] INFO  HomePage - Opening home page
+08:57:25.694 [main] INFO  MainLayout - Closing welcome message
+08:57:26.133 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:57:32.296 [main] INFO  MainLayout - Typing 'jeans' into search bar
+08:57:32.787 [main] INFO  MainLayout - Starting searching
+08:57:37.439 [main] INFO  ResultsPage - Entering 0 product from list
+08:57:47.812 [main] INFO  ProductPage - Adding product to bag
+08:57:50.418 [main] INFO  ProductPage - Getting product name
+08:57:50.535 [main] INFO  ProductPage - Getting product price
+08:57:50.614 [main] INFO  ProductPage - Getting all errors
+08:57:52.465 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:57:52.511 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:57:52.518 [main] INFO  DriverManager - Chrome driver selected
+08:57:52.518 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:57:58.301 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:57:58.302 [main] INFO  HomePage - Opening home page
+08:58:04.981 [main] INFO  MainLayout - Closing welcome message
+08:58:05.435 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:58:07.405 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+08:58:08.695 [main] INFO  MainLayout - Starting searching
+08:58:13.325 [main] INFO  ResultsPage - Entering 0 product from list
+08:58:19.882 [main] INFO  ProductPage - Adding product to bag
+08:58:23.123 [main] INFO  ProductPage - Getting product name
+08:58:23.367 [main] INFO  ProductPage - Getting product price
+08:58:23.550 [main] INFO  ProductPage - Getting all errors
+08:58:25.017 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:58:25.130 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:58:25.148 [main] INFO  DriverManager - Chrome driver selected
+08:58:25.148 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:58:31.113 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:58:31.115 [main] INFO  HomePage - Opening home page
+08:58:37.068 [main] INFO  MainLayout - Closing welcome message
+08:58:37.254 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:58:39.821 [main] INFO  MainLayout - Typing 'jeans' into search bar
+08:58:40.309 [main] INFO  MainLayout - Starting searching
+08:58:45.522 [main] INFO  ResultsPage - Entering 0 product from list
+08:58:52.614 [main] INFO  ProductPage - Selecting all first product options
+08:58:55.626 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (c30822018b89ddee82d929d771ffca2f)] -> xpath: //*[@id='aside-content']//select]'
+08:58:56.139 [main] INFO  ProductPage - Adding product to bag
+08:58:56.324 [main] INFO  ProductPage - Getting product name
+08:58:56.499 [main] INFO  ProductPage - Getting product price
+08:58:56.675 [main] INFO  MainLayout - Entering bag page
+08:58:56.746 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (c30822018b89ddee82d929d771ffca2f)] -> xpath: //*[@id='chrome-header']]'
+08:58:58.393 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (c30822018b89ddee82d929d771ffca2f)] -> xpath: //*[@data-test-id='bag-link']]'
+08:59:02.752 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:04.932 [main] INFO  BagPage - Setting quantity of 0product to 2
+08:59:05.622 [main] INFO  BagPage - Trying to select option with value '2' from select box '[[ChromeDriver: chrome on WINDOWS (c30822018b89ddee82d929d771ffca2f)] -> xpath: //select[contains(@class,'bag-item-quantity')]]'
+08:59:05.866 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:06.291 [main] INFO  BagPage - Applying change of bag
+08:59:06.621 [main] INFO  BagPage - Waiting for change
+08:59:07.313 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:07.368 [main] INFO  BagPage - Getting prices of all products in bag
+08:59:07.423 [main] INFO  BagPage - Getting all quantities
+08:59:07.524 [main] INFO  BagPage - Getting total price from wrapper
+08:59:07.557 [main] INFO  BagPage - Getting total price from list
+08:59:09.343 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:59:09.800 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:59:09.805 [main] INFO  DriverManager - Chrome driver selected
+08:59:09.805 [main] INFO  DriverManager - Setting up new ChromeDriver
+08:59:15.755 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+08:59:15.756 [main] INFO  HomePage - Opening home page
+08:59:21.297 [main] INFO  MainLayout - Closing welcome message
+08:59:21.612 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+08:59:24.115 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+08:59:25.353 [main] INFO  MainLayout - Starting searching
+08:59:31.630 [main] INFO  ResultsPage - Entering 0 product from list
+08:59:41.149 [main] INFO  ProductPage - Selecting all first product options
+08:59:43.279 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (5f235c857201c2426dfda9824656fbdc)] -> xpath: //*[@id='aside-content']//select]'
+08:59:43.931 [main] INFO  ProductPage - Adding product to bag
+08:59:44.164 [main] INFO  ProductPage - Getting product name
+08:59:44.303 [main] INFO  ProductPage - Getting product price
+08:59:44.418 [main] INFO  MainLayout - Entering bag page
+08:59:44.467 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (5f235c857201c2426dfda9824656fbdc)] -> xpath: //*[@id='chrome-header']]'
+08:59:46.064 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (5f235c857201c2426dfda9824656fbdc)] -> xpath: //*[@data-test-id='bag-link']]'
+08:59:50.444 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:51.465 [main] INFO  BagPage - Setting quantity of 0product to 3
+08:59:51.640 [main] INFO  BagPage - Trying to select option with value '3' from select box '[[ChromeDriver: chrome on WINDOWS (5f235c857201c2426dfda9824656fbdc)] -> xpath: //select[contains(@class,'bag-item-quantity')]]'
+08:59:53.114 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:53.571 [main] INFO  BagPage - Applying change of bag
+08:59:54.027 [main] INFO  BagPage - Waiting for change
+08:59:54.659 [main] INFO  BagPage - Waiting for visibility of elements
+08:59:54.698 [main] INFO  BagPage - Getting prices of all products in bag
+08:59:54.762 [main] INFO  BagPage - Getting all quantities
+08:59:55.015 [main] INFO  BagPage - Getting total price from wrapper
+08:59:55.114 [main] INFO  BagPage - Getting total price from list
+08:59:56.914 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+08:59:56.944 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+08:59:57.040 [main] INFO  DriverManager - Chrome driver selected
+08:59:57.041 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:00:00.093 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:00:00.094 [main] INFO  HomePage - Opening home page
+09:00:05.761 [main] INFO  MainLayout - Closing welcome message
+09:00:06.095 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:00:09.879 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:00:10.368 [main] INFO  MainLayout - Starting searching
+09:00:15.829 [main] INFO  ResultsPage - Entering 0 product from list
+09:00:25.714 [main] INFO  ProductPage - Selecting all first product options
+09:00:28.484 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='aside-content']//select]'
+09:00:28.747 [main] INFO  ProductPage - Adding product to bag
+09:00:28.957 [main] INFO  ProductPage - Getting product name
+09:00:29.121 [main] INFO  ProductPage - Getting product price
+09:00:29.363 [main] INFO  MainLayout - Typing 'hoodie' into search bar
+09:00:30.345 [main] INFO  MainLayout - Starting searching
+09:00:35.396 [main] INFO  ResultsPage - Entering 0 product from list
+09:00:42.001 [main] INFO  ProductPage - Selecting all first product options
+09:00:43.052 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='aside-content']//select]'
+09:00:46.151 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='aside-content']//select]'
+09:00:46.856 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='aside-content']//select]'
+09:00:47.234 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='aside-content']//select]'
+09:00:47.501 [main] INFO  ProductPage - Adding product to bag
+09:00:47.993 [main] INFO  ProductPage - Getting product name
+09:00:48.123 [main] INFO  ProductPage - Getting product price
+09:00:48.245 [main] INFO  MainLayout - Entering bag page
+09:00:48.286 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@id='chrome-header']]'
+09:00:49.935 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (0dae642f9ce12200c8284ade08e1f9ce)] -> xpath: //*[@data-test-id='bag-link']]'
+09:00:54.430 [main] INFO  BagPage - Waiting for visibility of elements
+09:00:55.148 [main] INFO  BagPage - Getting names of all products in bag
+09:00:56.300 [main] INFO  BagPage - Waiting for visibility of elements
+09:00:56.330 [main] INFO  BagPage - Removing 0 product from bag
+09:00:56.744 [main] INFO  BagPage - Waiting for change
+09:00:58.458 [main] INFO  BagPage - Waiting for visibility of elements
+09:00:58.488 [main] INFO  BagPage - Getting names of all products in bag
+09:00:58.548 [main] INFO  BagPage - Waiting for visibility of elements
+09:00:58.578 [main] INFO  BagPage - Getting prices of all products in bag
+09:00:58.659 [main] INFO  BagPage - Getting all quantities
+09:00:58.893 [main] INFO  BagPage - Getting total price from wrapper
+09:00:58.924 [main] INFO  BagPage - Getting total price from list
+09:01:00.378 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:01:00.479 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:01:00.484 [main] INFO  DriverManager - Chrome driver selected
+09:01:00.484 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:01:06.612 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:01:06.613 [main] INFO  HomePage - Opening home page
+09:01:13.739 [main] INFO  MainLayout - Closing welcome message
+09:01:13.952 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:01:18.331 [main] INFO  MainLayout - Welcome message not found
+09:01:18.332 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:01:19.541 [main] INFO  MainLayout - Starting searching
+09:01:24.296 [main] INFO  ResultsPage - Entering 0 product from list
+09:01:33.421 [main] INFO  ProductPage - Selecting all first product options
+09:01:34.116 [main] INFO  ProductPage - Adding product to bag
+09:01:36.313 [main] ERROR  - asos.CucumberTestRunner.runScenario --- Test case FAILED
+09:01:36.323 [main] ERROR  - org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)
+09:01:36.323 [main] ERROR  - org.openqa.selenium.remote.RemoteWebDriver$Mechanism$1.findElement(RemoteWebDriver.java:1234)
+09:01:36.323 [main] ERROR  - org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
+09:01:36.323 [main] ERROR  - org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+09:01:36.323 [main] ERROR  - org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+09:01:36.323 [main] ERROR  - org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+09:01:36.323 [main] ERROR  - com.sun.proxy.$Proxy38.click(Unknown Source)
+09:01:36.323 [main] ERROR  - asos.pageobjects.ProductPage.addToBag(ProductPage.java:59)
+09:01:36.323 [main] ERROR  - asos.stepdefinitions.BasketSteps.addProductToBag(BasketSteps.java:75)
+09:01:36.323 [main] ERROR  - asos.stepdefinitions.BasketSteps.addFirstProductForTermToBag(BasketSteps.java:42)
+09:01:36.323 [main] ERROR  - java.base/java.lang.Iterable.forEach(Iterable.java:75)
+09:01:36.323 [main] ERROR  - asos.stepdefinitions.BasketSteps.addMultipleProductsToBag(BasketSteps.java:48)
+09:01:36.323 [main] ERROR  - ?.Added to bag first products for search terms(file:///C:/Users/Marcin/Desktop/kursEPAM/source/CucumberAsos/src/test/resources/features/Bag.feature:40)
+09:01:36.363 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:01:36.373 [main] INFO  DriverManager - Chrome driver selected
+09:01:36.373 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:01:42.096 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:01:42.098 [main] INFO  HomePage - Opening home page
+09:01:47.915 [main] INFO  MainLayout - Closing welcome message
+09:01:48.078 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:01:53.312 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:01:53.660 [main] INFO  MainLayout - Starting searching
+09:02:00.000 [main] INFO  ResultsPage - Entering 0 product from list
+09:02:09.692 [main] INFO  ProductPage - Getting product name
+09:02:12.226 [main] INFO  MainLayout - Typing 'hoodie' into search bar
+09:02:12.687 [main] INFO  MainLayout - Starting searching
+09:02:16.543 [main] INFO  ResultsPage - Entering 0 product from list
+09:02:23.606 [main] INFO  ProductPage - Getting product name
+09:02:26.765 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:02:27.438 [main] INFO  MainLayout - Starting searching
+09:02:33.104 [main] INFO  ResultsPage - Entering 0 product from list
+09:02:40.314 [main] INFO  ProductPage - Getting product name
+09:02:44.072 [main] INFO  ProductPage - Getting all names of recently browsed product
+09:02:44.277 [main] INFO  RecentlyBrowsedSteps - Asserting any recently browsed element exist
+09:02:44.395 [main] INFO  RecentlyBrowsedSteps - Asserting names of recently browsed products
+09:02:46.125 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:02:46.181 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:02:46.302 [main] INFO  DriverManager - Chrome driver selected
+09:02:46.303 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:02:49.455 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:02:49.588 [main] INFO  HomePage - Opening home page
+09:02:55.101 [main] INFO  MainLayout - Closing welcome message
+09:02:55.311 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:02:59.199 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:02:59.741 [main] INFO  MainLayout - Starting searching
+09:03:04.419 [main] INFO  ResultsPage - Entering 0 product from list
+09:03:13.785 [main] INFO  ProductPage - Getting product name
+09:03:14.893 [main] INFO  MainLayout - Typing 'hoodie' into search bar
+09:03:16.406 [main] INFO  MainLayout - Starting searching
+09:03:21.693 [main] INFO  ResultsPage - Entering 0 product from list
+09:03:28.387 [main] INFO  ProductPage - Getting product name
+09:03:31.685 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:03:32.039 [main] INFO  MainLayout - Starting searching
+09:03:37.121 [main] INFO  ResultsPage - Entering 0 product from list
+09:03:45.426 [main] INFO  ProductPage - Getting product name
+09:03:49.728 [main] INFO  ProductPage - Clearing recently browsed product
+09:03:51.811 [main] INFO  ProductPage - Getting all names of recently browsed product
+09:03:51.866 [main] INFO  RecentlyBrowsedSteps - Asserting size of recently browsed
+09:03:53.432 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:03:53.492 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:03:53.501 [main] INFO  DriverManager - Chrome driver selected
+09:03:53.502 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:03:59.719 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:03:59.750 [main] INFO  HomePage - Opening home page
+09:04:05.173 [main] INFO  MainLayout - Closing welcome message
+09:04:05.362 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:04:08.218 [main] INFO  MainLayout - Entering registration page
+09:04:08.237 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (0bb961ea9361ef667dc793337ba8552a)] -> xpath: //*[@id='chrome-header']]'
+09:04:09.016 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (0bb961ea9361ef667dc793337ba8552a)] -> xpath: //*[@data-testid='signup-link']]'
+09:04:13.787 [main] INFO  RegistrationPage - Typing '' into email text box
+09:04:15.315 [main] INFO  RegistrationPage - Typing '' into first name text box
+09:04:15.446 [main] INFO  RegistrationPage - Typing '' into last name text box
+09:04:15.682 [main] INFO  RegistrationPage - Typing '' into password text box
+09:04:16.035 [main] INFO  RegistrationPage - Registering
+09:04:16.194 [main] INFO  RegistrationPage - Waiting for visibility of elements
+09:04:16.265 [main] INFO  RegistrationPage - Getting email error
+09:04:16.324 [main] INFO  RegistrationPage - Getting first name error
+09:04:16.373 [main] INFO  RegistrationPage - Getting last name error
+09:04:16.413 [main] INFO  RegistrationPage - Getting password error
+09:04:16.508 [main] INFO  RegistrationSteps - Asserting registration text box errors
+09:04:18.079 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:04:18.099 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:04:18.109 [main] INFO  DriverManager - Chrome driver selected
+09:04:18.109 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:04:23.731 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:04:23.734 [main] INFO  HomePage - Opening home page
+09:04:29.075 [main] INFO  MainLayout - Closing welcome message
+09:04:29.449 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:04:31.227 [main] INFO  MainLayout - Entering registration page
+09:04:31.289 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (2a36c439cce8e72f72b54476acf914ad)] -> xpath: //*[@id='chrome-header']]'
+09:04:32.093 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (2a36c439cce8e72f72b54476acf914ad)] -> xpath: //*[@data-testid='signup-link']]'
+09:04:35.945 [main] INFO  RegistrationPage - Typing 'gg.gg.com' into email text box
+09:04:37.014 [main] INFO  RegistrationPage - Typing 'Jan' into first name text box
+09:04:37.265 [main] INFO  RegistrationPage - Typing '' into last name text box
+09:04:37.983 [main] INFO  RegistrationPage - Typing '1bc456789' into password text box
+09:04:38.211 [main] INFO  RegistrationPage - Registering
+09:04:38.451 [main] INFO  RegistrationPage - Waiting for visibility of elements
+09:04:41.577 [main] INFO  RegistrationPage - Not all errors are visible
+09:04:41.587 [main] INFO  RegistrationPage - Getting email error
+09:04:41.617 [main] INFO  RegistrationPage - Getting first name error
+09:04:41.627 [main] INFO  RegistrationPage - First name error not found
+09:04:41.627 [main] INFO  RegistrationPage - Getting last name error
+09:04:41.657 [main] INFO  RegistrationPage - Getting password error
+09:04:41.688 [main] INFO  RegistrationSteps - Asserting registration text box errors
+09:04:42.886 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:04:43.003 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:04:43.010 [main] INFO  DriverManager - Chrome driver selected
+09:04:43.010 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:04:49.057 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:04:49.059 [main] INFO  HomePage - Opening home page
+09:04:55.749 [main] INFO  MainLayout - Closing welcome message
+09:04:55.929 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:05:00.625 [main] INFO  MainLayout - Entering registration page
+09:05:00.646 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (5a985d34c4c93246300dda62d7cea3bd)] -> xpath: //*[@id='chrome-header']]'
+09:05:01.447 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (5a985d34c4c93246300dda62d7cea3bd)] -> xpath: //*[@data-testid='signup-link']]'
+09:05:05.165 [main] INFO  RegistrationPage - Typing 'gg.g@' into email text box
+09:05:05.920 [main] INFO  RegistrationPage - Typing '' into first name text box
+09:05:07.028 [main] INFO  RegistrationPage - Typing 'Kowalski' into last name text box
+09:05:08.390 [main] INFO  RegistrationPage - Typing '1234567890' into password text box
+09:05:08.577 [main] INFO  RegistrationPage - Registering
+09:05:08.758 [main] INFO  RegistrationPage - Waiting for visibility of elements
+09:05:08.834 [main] INFO  RegistrationPage - Getting email error
+09:05:08.896 [main] INFO  RegistrationPage - Getting first name error
+09:05:08.950 [main] INFO  RegistrationPage - Getting last name error
+09:05:08.979 [main] INFO  RegistrationPage - Last name error not found
+09:05:08.979 [main] INFO  RegistrationPage - Getting password error
+09:05:08.993 [main] INFO  RegistrationPage - Password error not found
+09:05:08.993 [main] INFO  RegistrationSteps - Asserting registration text box errors
+09:05:10.225 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:05:10.230 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:05:10.412 [main] INFO  DriverManager - Chrome driver selected
+09:05:10.412 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:05:16.098 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:05:16.099 [main] INFO  HomePage - Opening home page
+09:05:21.705 [main] INFO  MainLayout - Closing welcome message
+09:05:21.871 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:05:24.300 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:05:25.549 [main] INFO  MainLayout - Starting searching
+09:05:30.454 [main] INFO  ResultsPage - Waiting for visibility of elements
+09:05:30.749 [main] INFO  ResultsPage - Expanding sort options
+09:05:32.512 [main] INFO  ResultsPage - Selecting sort option 'PRICE_ASC'
+09:05:32.911 [main] INFO  ResultsPage - Waiting for change
+09:05:34.158 [main] INFO  ResultsPage - Waiting for change
+09:05:37.454 [main] INFO  ResultsPage - Element '[[ChromeDriver: chrome on WINDOWS (607b05c8c99ca63c705e116c07148f7a)] -> xpath: //*[@data-auto-id='productList']//span[@role='alert']]' not changed
+09:05:37.454 [main] INFO  ResultsPage - Getting prices from results
+09:05:40.364 [main] INFO  SearchSteps - Asserting results are sorted by PRICE_ASC
+09:05:41.548 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:05:41.627 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:05:41.647 [main] INFO  DriverManager - Chrome driver selected
+09:05:41.647 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:05:47.642 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:05:47.643 [main] INFO  HomePage - Opening home page
+09:05:53.312 [main] INFO  MainLayout - Closing welcome message
+09:05:53.505 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:05:57.085 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:05:57.508 [main] INFO  MainLayout - Starting searching
+09:06:02.394 [main] INFO  ResultsPage - Waiting for visibility of elements
+09:06:04.968 [main] INFO  ResultsPage - Expanding sort options
+09:06:05.179 [main] INFO  ResultsPage - Selecting sort option 'PRICE_DESC'
+09:06:05.565 [main] INFO  ResultsPage - Waiting for change
+09:06:06.572 [main] INFO  ResultsPage - Waiting for change
+09:06:09.918 [main] INFO  ResultsPage - Element '[[ChromeDriver: chrome on WINDOWS (5fe9cb8121928d47c0673faf74a2e44a)] -> xpath: //*[@data-auto-id='productList']//span[@role='alert']]' not changed
+09:06:09.918 [main] INFO  ResultsPage - Getting prices from results
+09:06:12.689 [main] INFO  SearchSteps - Asserting results are sorted by PRICE_DESC
+09:06:14.093 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:06:14.258 [main] INFO   -  
+ --------------- Test Execution ENDED --------------- 
+
+09:06:14.384 [main] INFO   - Suite Name->Allure Reports Chrome::Report output Ditectory->C:\Users\Marcin\Desktop\kursEPAM\source\CucumberAsos\target\surefire-reports\Asos Automated Tests::Suite Name->Asos Automated Tests
+     Start Date Time for execution->Tue Apr 27 08:55:06 CEST 2021::End Date Time for execution->Tue Apr 27 09:06:14 CEST 2021
+09:06:14.384 [main] INFO   - --------FAILED TEST CASE---------
+09:06:14.413 [main] INFO   - TESTCASE NAME->runScenario
+Description->Runs Cucumber Scenarios
+Priority->0
+:Date->Thu Jan 01 00:59:59 CET 1970
+09:12:27.478 [main] INFO  DriverManager - Chrome driver selected
+09:12:27.487 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:12:36.343 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:12:36.388 [main] INFO  HomePage - Opening home page
+09:12:43.039 [main] INFO  MainLayout - Closing welcome message
+09:12:43.473 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:12:48.351 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:12:49.562 [main] INFO  MainLayout - Starting searching
+09:12:54.017 [main] INFO  ResultsPage - Entering 0 product from list
+09:13:02.286 [main] INFO  ProductPage - Selecting all first product options
+09:13:06.065 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='aside-content']//select]'
+09:13:06.497 [main] INFO  ProductPage - Adding product to bag
+09:13:06.969 [main] INFO  ProductPage - Getting product name
+09:13:07.176 [main] INFO  ProductPage - Getting product price
+09:13:07.302 [main] INFO  MainLayout - Typing 'hoodie' into search bar
+09:13:08.024 [main] INFO  MainLayout - Starting searching
+09:13:14.056 [main] INFO  ResultsPage - Entering 0 product from list
+09:13:21.733 [main] INFO  ProductPage - Selecting all first product options
+09:13:23.903 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='aside-content']//select]'
+09:13:24.356 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='aside-content']//select]'
+09:13:24.777 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='aside-content']//select]'
+09:13:25.512 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='aside-content']//select]'
+09:13:25.711 [main] INFO  ProductPage - Adding product to bag
+09:13:25.945 [main] INFO  ProductPage - Getting product name
+09:13:26.064 [main] INFO  ProductPage - Getting product price
+09:13:26.169 [main] INFO  MainLayout - Entering bag page
+09:13:26.257 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@id='chrome-header']]'
+09:13:27.913 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (b9a8f36dac23a0742d4c864339682bb5)] -> xpath: //*[@data-test-id='bag-link']]'
+09:13:32.013 [main] INFO  BagPage - Waiting for visibility of elements
+09:13:33.431 [main] INFO  BagPage - Getting names of all products in bag
+09:13:35.182 [main] INFO  BagPage - Waiting for visibility of elements
+09:13:35.225 [main] INFO  BagPage - Removing 0 product from bag
+09:13:35.566 [main] INFO  BagPage - Waiting for change
+09:13:37.489 [main] INFO  BagPage - Waiting for visibility of elements
+09:13:37.530 [main] INFO  BagPage - Getting names of all products in bag
+09:13:37.608 [main] INFO  BagPage - Waiting for visibility of elements
+09:13:37.645 [main] INFO  BagPage - Getting prices of all products in bag
+09:13:37.736 [main] INFO  BagPage - Getting all quantities
+09:13:38.049 [main] INFO  BagPage - Getting total price from wrapper
+09:13:38.116 [main] INFO  BagPage - Getting total price from list
+09:13:39.326 [main] INFO  DriverManager - Chrome driver selected
+09:13:39.336 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:13:44.940 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:13:44.947 [main] INFO  HomePage - Opening home page
+09:13:51.239 [main] INFO  MainLayout - Closing welcome message
+09:13:51.443 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:13:54.239 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:13:54.688 [main] INFO  MainLayout - Starting searching
+09:14:00.114 [main] INFO  ResultsPage - Entering 0 product from list
+09:14:08.043 [main] INFO  ProductPage - Selecting all first product options
+09:14:10.065 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='aside-content']//select]'
+09:14:10.340 [main] INFO  ProductPage - Adding product to bag
+09:14:10.735 [main] INFO  ProductPage - Getting product name
+09:14:10.884 [main] INFO  ProductPage - Getting product price
+09:14:11.005 [main] INFO  MainLayout - Typing 'hoodie' into search bar
+09:14:11.897 [main] INFO  MainLayout - Starting searching
+09:14:17.045 [main] INFO  ResultsPage - Entering 0 product from list
+09:14:23.419 [main] INFO  ProductPage - Selecting all first product options
+09:14:26.582 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='aside-content']//select]'
+09:14:27.519 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='aside-content']//select]'
+09:14:27.895 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='aside-content']//select]'
+09:14:28.303 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='aside-content']//select]'
+09:14:28.603 [main] INFO  ProductPage - Adding product to bag
+09:14:28.869 [main] INFO  ProductPage - Getting product name
+09:14:28.979 [main] INFO  ProductPage - Getting product price
+09:14:29.104 [main] INFO  MainLayout - Entering bag page
+09:14:29.228 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@id='chrome-header']]'
+09:14:31.048 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (8b0794d8a2af1ac8f3c872e1ca688caf)] -> xpath: //*[@data-test-id='bag-link']]'
+09:14:34.716 [main] INFO  BagPage - Waiting for visibility of elements
+09:14:37.475 [main] INFO  BagPage - Getting names of all products in bag
+09:14:37.596 [main] INFO  BagPage - Waiting for visibility of elements
+09:14:37.637 [main] INFO  BagPage - Removing 1 product from bag
+09:14:37.885 [main] INFO  BagPage - Waiting for change
+09:14:39.817 [main] INFO  BagPage - Waiting for visibility of elements
+09:14:39.854 [main] INFO  BagPage - Getting names of all products in bag
+09:14:39.914 [main] INFO  BagPage - Waiting for visibility of elements
+09:14:39.944 [main] INFO  BagPage - Getting prices of all products in bag
+09:14:40.025 [main] INFO  BagPage - Getting all quantities
+09:14:40.262 [main] INFO  BagPage - Getting total price from wrapper
+09:14:40.293 [main] INFO  BagPage - Getting total price from list
+09:17:21.768 [main] INFO   -  
+ --------------- Test Execution STARTED --------------- 
+ 
+09:17:23.254 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:17:24.075 [main] INFO  DriverManager - Chrome driver selected
+09:17:24.076 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:17:34.664 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:17:34.791 [main] INFO  HomePage - Opening home page
+09:17:41.047 [main] INFO  MainLayout - Closing welcome message
+09:17:41.547 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:17:45.034 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:17:45.655 [main] INFO  MainLayout - Starting searching
+09:17:50.630 [main] INFO  ResultsPage - Entering 0 product from list
+09:17:57.757 [main] INFO  ProductPage - Selecting all first product options
+09:17:59.974 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (efcf78b6c275bee3a242bcf3a78e40a4)] -> xpath: //*[@id='aside-content']//select]'
+09:18:00.665 [main] INFO  ProductPage - Adding product to bag
+09:18:00.830 [main] INFO  ProductPage - Getting product name
+09:18:00.977 [main] INFO  ProductPage - Getting product price
+09:18:01.097 [main] INFO  MainLayout - Entering bag page
+09:18:01.153 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (efcf78b6c275bee3a242bcf3a78e40a4)] -> xpath: //*[@id='chrome-header']]'
+09:18:02.578 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (efcf78b6c275bee3a242bcf3a78e40a4)] -> xpath: //*[@data-test-id='bag-link']]'
+09:18:06.919 [main] INFO  BagPage - Waiting for visibility of elements
+09:18:08.668 [main] INFO  BagPage - Getting names of all products in bag
+09:18:09.506 [main] INFO  BasketSteps - Finding product position on list
+09:18:09.507 [main] INFO  BagPage - Waiting for visibility of elements
+09:18:09.571 [main] INFO  BagPage - Getting prices of all products in bag
+09:18:09.607 [main] INFO  BasketSteps - Asserting price of product
+09:18:11.578 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:18:11.865 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:18:11.933 [main] INFO  DriverManager - Chrome driver selected
+09:18:11.933 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:18:18.816 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:18:18.817 [main] INFO  HomePage - Opening home page
+09:18:24.135 [main] INFO  MainLayout - Closing welcome message
+09:18:24.352 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:18:27.447 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:18:27.932 [main] INFO  MainLayout - Starting searching
+09:18:34.190 [main] INFO  ResultsPage - Entering 0 product from list
+09:18:40.360 [main] INFO  ProductPage - Selecting all first product options
+09:18:43.022 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (518b7a7ccf15099b356122f660cb483f)] -> xpath: //*[@id='aside-content']//select]'
+09:18:43.281 [main] INFO  ProductPage - Adding product to bag
+09:18:43.526 [main] INFO  ProductPage - Getting product name
+09:18:43.682 [main] INFO  ProductPage - Getting product price
+09:18:43.756 [main] INFO  MainLayout - Entering bag page
+09:18:43.800 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (518b7a7ccf15099b356122f660cb483f)] -> xpath: //*[@id='chrome-header']]'
+09:18:44.838 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (518b7a7ccf15099b356122f660cb483f)] -> xpath: //*[@data-test-id='bag-link']]'
+09:18:50.111 [main] INFO  BagPage - Waiting for visibility of elements
+09:18:50.833 [main] INFO  BagPage - Getting names of all products in bag
+09:18:52.029 [main] INFO  BasketSteps - Finding product position on list
+09:18:52.030 [main] INFO  BagPage - Waiting for visibility of elements
+09:18:52.347 [main] INFO  BagPage - Getting prices of all products in bag
+09:18:52.480 [main] INFO  BasketSteps - Asserting price of product
+09:18:54.088 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:18:54.452 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:18:54.507 [main] INFO  DriverManager - Chrome driver selected
+09:18:54.507 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:19:00.475 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:19:00.476 [main] INFO  HomePage - Opening home page
+09:19:06.433 [main] INFO  MainLayout - Closing welcome message
+09:19:06.640 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:19:09.792 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:19:10.320 [main] INFO  MainLayout - Starting searching
+09:19:14.602 [main] INFO  ResultsPage - Entering 0 product from list
+09:19:24.308 [main] INFO  ProductPage - Adding product to bag
+09:19:26.597 [main] INFO  ProductPage - Getting product name
+09:19:26.849 [main] INFO  ProductPage - Getting product price
+09:19:27.158 [main] INFO  ProductPage - Getting all errors
+09:19:28.871 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:19:28.901 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:19:28.956 [main] INFO  DriverManager - Chrome driver selected
+09:19:28.956 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:19:34.537 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:19:34.538 [main] INFO  HomePage - Opening home page
+09:19:40.610 [main] INFO  MainLayout - Closing welcome message
+09:19:41.026 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:19:43.330 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:19:44.363 [main] INFO  MainLayout - Starting searching
+09:19:48.290 [main] INFO  ResultsPage - Entering 0 product from list
+09:19:52.681 [main] INFO  ProductPage - Adding product to bag
+09:19:56.072 [main] INFO  ProductPage - Getting product name
+09:19:56.205 [main] INFO  ProductPage - Getting product price
+09:19:56.338 [main] INFO  ProductPage - Getting all errors
+09:19:58.669 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:19:58.669 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:19:58.763 [main] INFO  DriverManager - Chrome driver selected
+09:19:58.763 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:20:04.655 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:20:04.656 [main] INFO  HomePage - Opening home page
+09:20:10.270 [main] INFO  MainLayout - Closing welcome message
+09:20:10.780 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:20:13.419 [main] INFO  MainLayout - Typing 'jeans' into search bar
+09:20:13.864 [main] INFO  MainLayout - Starting searching
+09:20:18.328 [main] INFO  ResultsPage - Entering 0 product from list
+09:20:24.425 [main] INFO  ProductPage - Selecting all first product options
+09:20:27.127 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (d90a79cfec5e3f268a7709576ac7aeb8)] -> xpath: //*[@id='aside-content']//select]'
+09:20:27.534 [main] INFO  ProductPage - Adding product to bag
+09:20:27.776 [main] INFO  ProductPage - Getting product name
+09:20:27.939 [main] INFO  ProductPage - Getting product price
+09:20:28.082 [main] INFO  MainLayout - Entering bag page
+09:20:28.113 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (d90a79cfec5e3f268a7709576ac7aeb8)] -> xpath: //*[@id='chrome-header']]'
+09:20:29.592 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (d90a79cfec5e3f268a7709576ac7aeb8)] -> xpath: //*[@data-test-id='bag-link']]'
+09:20:34.288 [main] INFO  BagPage - Waiting for visibility of elements
+09:20:35.968 [main] INFO  BagPage - Setting quantity of 0product to 2
+09:20:36.039 [main] INFO  BagPage - Trying to select option with value '2' from select box '[[ChromeDriver: chrome on WINDOWS (d90a79cfec5e3f268a7709576ac7aeb8)] -> xpath: //select[contains(@class,'bag-item-quantity')]]'
+09:20:36.198 [main] INFO  BagPage - Waiting for visibility of elements
+09:20:36.384 [main] INFO  BagPage - Applying change of bag
+09:20:37.083 [main] INFO  BagPage - Waiting for change
+09:20:37.651 [main] INFO  BagPage - Waiting for visibility of elements
+09:20:37.701 [main] INFO  BagPage - Getting prices of all products in bag
+09:20:37.754 [main] INFO  BagPage - Getting all quantities
+09:20:37.879 [main] INFO  BagPage - Getting total price from wrapper
+09:20:37.908 [main] INFO  BagPage - Getting total price from list
+09:20:39.461 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case PASSED
+09:20:39.476 [main] INFO   - asos.CucumberTestRunner.runScenario --- Test case STARTED
+09:20:39.485 [main] INFO  DriverManager - Chrome driver selected
+09:20:39.485 [main] INFO  DriverManager - Setting up new ChromeDriver
+09:20:45.016 [main] INFO  PropertyManager - Trying to retrieve property file: data/asos.properties
+09:20:45.018 [main] INFO  HomePage - Opening home page
+09:20:51.647 [main] INFO  MainLayout - Closing welcome message
+09:20:51.970 [main] INFO  MainLayout - Waiting for element 'Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-testid='welcome-message']//button[@data-testid='close-button']''
+09:20:55.145 [main] INFO  MainLayout - Typing 'black shirt' into search bar
+09:20:55.719 [main] INFO  MainLayout - Starting searching
+09:20:59.981 [main] INFO  ResultsPage - Entering 0 product from list
+09:21:06.884 [main] INFO  ProductPage - Selecting all first product options
+09:21:08.428 [main] INFO  ProductPage - Trying to select option with index '1' from select box '[[ChromeDriver: chrome on WINDOWS (4adf9e2389442271b46a5ac2b284c78a)] -> xpath: //*[@id='aside-content']//select]'
+09:21:08.851 [main] INFO  ProductPage - Adding product to bag
+09:21:09.096 [main] INFO  ProductPage - Getting product name
+09:21:09.262 [main] INFO  ProductPage - Getting product price
+09:21:09.346 [main] INFO  MainLayout - Entering bag page
+09:21:09.373 [main] INFO  MainLayout - Scrolling to element '[[ChromeDriver: chrome on WINDOWS (4adf9e2389442271b46a5ac2b284c78a)] -> xpath: //*[@id='chrome-header']]'
+09:21:10.429 [main] INFO  MainLayout - Waiting for element '[[ChromeDriver: chrome on WINDOWS (4adf9e2389442271b46a5ac2b284c78a)] -> xpath: //*[@data-test-id='bag-link']]'
+09:21:14.128 [main] INFO  BagPage - Waiting for visibility of elements

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Asos Automated Tests">
+    <listeners>
+        <listener class-name="asos.listeners.TestResultsListener" />
+        <listener class-name="asos.listeners.TestReporter" />
+    </listeners>
+    <test name="Allure Reports Chrome">
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="asos.CucumberTestRunner" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
